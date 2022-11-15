@@ -1,6 +1,6 @@
 #include <windows.h>
 #include <stdio.h>
-#include "../cmosrwdrv/cmosrwdrv/cmosrwdrv_ioctl.h"
+#include "../cmosrwdrv/cmosrwdrv_ioctl.h"
 
 int validHex(char* str)
 {
