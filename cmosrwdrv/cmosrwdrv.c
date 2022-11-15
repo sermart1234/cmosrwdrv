@@ -1,14 +1,6 @@
 #include <ntddk.h>
 #include "cmosrwdrv_ioctl.h"
 
-//загуглить про секции и страницы памяти и тд
-//как происходит переключение между рингами и вызов системных функций // подробнее про прерывания
-// IRQL 
-//IRP_MJ_READ  IRP_MJ_WRITE IOCTL по аналогии в лине?
-//9 глава книги //wdm ничего нипанятна
-//что будет если имя девайса NULL
-
-
 typedef struct _DEVICE_EXTENSION
 {
 	PDEVICE_OBJECT	DeviceObject;
